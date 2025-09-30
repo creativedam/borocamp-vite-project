@@ -11,7 +11,6 @@ export default defineConfig({
     vue(),
      tailwindcss(),
   ],
-  base:"/borocamp-vite-project",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
