@@ -1,5 +1,12 @@
 <template>
-    <div class="home">
-        <h1>Home</h1>
+    <div class="contacts w-full">
+        <h1>Contacts</h1>
+                <h2 class="w-full text-center p-4 text-black text-bold text-2xl" >Our website is under maintanace </h2>
+           <p class="w-full text-center p-4 text-amber-950">
+           Reach us on +26773 807 099          
+        </p>
+        <p class="w-full text-center p-4 text-amber-950">
+            Welcome to Borocamp Okavango Safari 
+        </p>
     </div>
 </template>
