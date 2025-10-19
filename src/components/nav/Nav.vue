@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-white  h-16 mb-2 md:mb-0 border-b-1 border-amber-800 relative z-50 block">
+  <div class="w-full bg-white  h-15 mb-2 md:mb-0 border-b-1 border-amber-800 relative z-50 block">
     <!-- Book Button (Mobile) -->
     <router-link
       class="block px-4 py-2 my-2 font-semibold text-base visible sm:hidden text-white shadow-sm absolute pt-2 md:pt-0 top-1 right-4"
@@ -9,17 +9,17 @@
 
     <!-- Main Nav -->
     <div class="md:container md:relative w-full mx-auto block">
-      <nav id="menu-main" class="xs:hidden w-full block md:flex justify-center">
+      <nav id="menu-main" class="xs:hidden w-full block md:flex justify-center h-15 ">
         <ul id="nav-main"
-          class="xs:hidden md:grid grid-cols-6 w-3/5 md:w-5/6 text-amber-800 text-base md:text-sm lg:text-base font-medium font-sans">
-          <li class="py-4">
+          class="xs:hidden md:grid grid-cols-6 h-15 w-3/5 md:w-5/6 text-amber-800 text-base md:text-sm lg:text-base font-medium font-sans">
+          <li class="py-4 h-15">
             <router-link class="hover:text-org-100 text-center px-3 border-r border-dashed border-amber-800 block"
               to="/">Home</router-link>
 
           </li>
 
           <!-- Dynamic Mega Menus -->
-          <li v-for="(menu, key) in menus" :key="key" class="py-4 relative" @mouseenter="activeMenu = key"
+          <li v-for="(menu, key) in menus" :key="key" class="py-4 h-15 relative" @mouseenter="activeMenu = key"
             @mouseleave="activeMenu = null">
 
             <router-link class="text-center hover:text-org-100 px-4 border-r border-dashed border-amber-800e block"
@@ -28,7 +28,7 @@
           </li>
 
           <!-- Static Contact Link -->
-          <li class="py-4">
+          <li class="py-4 h-15">
             <router-link class="hover:text-org-100 text-center px-3 border-dashed border-amber-800 block"
               to="/contacts">Contact
             </router-link>
@@ -39,7 +39,7 @@
       <div v-for="(menu, key) in menus" :key="key" class="relative" @mouseenter="activeMenu = key"
         @mouseleave="activeMenu = null">
         <div v-if="activeMenu === key"
-          class="mt-2 grid grid-cols-3 grid-rows-1 h-72 w-full drop-shadow-md border-t-4 border-org-200 z-30 overflow-hidden animate__animated animate__fadeIn">
+          class="grid grid-cols-3 grid-rows-1 h-72 w-full drop-shadow-md border-t-4 border-org-200 z-30 overflow-hidden animate__animated animate__fadeIn">
           <!-- Menu Title -->
           <div class="menu-title h-full py-5 px-8 bg-amber-900 text-white bg-opacity-50">
             <div class="overflow-hidden h-full ml-16">
@@ -51,7 +51,7 @@
           </div>
 
           <!-- Menu Items (Tabs) -->
-          <div class="level-one bg-gray-500 px-8 py-5 text-left text-white bg-opacity-90">
+          <div class="level-one bg-white px-8 py-5 text-left text-gray-700 bg-opacity-90">
             <ul class="animate__animated animate__fadeInDown">
               <li v-for="item in menu.items" :key="item.key" class="mb-2 cursor-pointer">
                 <router-link class="py-1 pl-4 block hover:text-org-100 transition hover:border-l-4 border-transparent"
@@ -63,7 +63,7 @@
           </div>
 
           <!-- Tab Content -->
-          <div class="level-two bg-gray-500 px-8 py-5 text-left text-white bg-opacity-90">
+          <div class="level-two bg-white px-8 py-5 text-left text-gray-700 bg-opacity-90">
             <div v-for="item in menu.items" :key="item.key" v-show="activeTab === item.key"
               class="h-full p-3 pointer-events-none animate__animated animate__fadeInDown">
               {{ item.description }}

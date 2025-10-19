@@ -13,7 +13,7 @@
         class="w-full h-100 relative bg-center bg-cover"  :style="{ backgroundImage: `url(${slide.image})` }"
       >
         <!-- Overlay content -->
-        <div class="bg-transparent bg-opacity-40 w-full h-full flex flex-col justify-center items-start px-20">
+        <div class="bg-transparent bg-opacity-40 w-full h-full flex flex-col justify-center items-start px-20 animate__animated animate__fadeInDown">
 
           <h1 class="text-white text-4xl font-bold mb-2">{{ slide.title }}</h1>
           <p class="text-white text-xl">{{ slide.subtitle }}</p>
