@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+
+.image-11 {
+  @apply bg-cover bg-center;
+  background-image: url('@/assets/image_1.jpg');
+}
+
+.logo {
+  @apply bg-cover bg-center;
+  background-image: url('@/assets/logo.png');
+}
