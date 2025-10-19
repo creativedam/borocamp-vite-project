@@ -3,7 +3,7 @@
         <sub class="w-full bg-white text-slate-800 py-8">
             <div class="container mx-auto px-5">
                 <div class="sm:w-1/4 md:1/5 lg:w-full py-5 block">
-                        <social name="facebook" class="w-12 h-12 mx-auto  fill-blue-500 my-auto hover:fill-amber-500" />
+                        <social name="facebook" class="w-12 h-12 mx-auto  fill-amber-800 my-auto hover:fill-amber-500" />
                 </div>
             </div>
         </sub>

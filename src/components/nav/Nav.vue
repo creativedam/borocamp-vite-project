@@ -30,7 +30,7 @@
           <!-- Static Contact Link -->
           <li class="py-4">
             <router-link class="hover:text-org-100 text-center px-3 border-dashed border-amber-800 block"
-              to="/contacts">Contact Us
+              to="/contacts">Contact
             </router-link>
           </li>
         </ul>
@@ -89,55 +89,97 @@ const activeTab = ref(null)
 
 const menus = {
   about: {
-    title: 'About Us',
+    title: 'About',
     url: '/about',
     items: [
       {
         label: 'Mission',
         key: 'mission',
-        description: 'To help employers promote health and safety.',
+        description: 'This will be our mission',
         url: '/about',
       },
       {
         label: 'Vision',
         key: 'vision',
-        description: 'To create safe and productive workplaces.',
+        description: 'This will be our vision',
         url: '/about',
       },
       {
         label: 'Values',
         key: 'values',
-        description: 'Professionalism, Trust, Innovation...',
+        description: 'This will be our values',
         url: '/about',
       },
     ],
   },
   services: {
-    title: 'Services',
+    title: 'Destinations',
     url: '/',
     items: [
       {
-        label: 'Occupational Health',
-        key: 'occ',
-        description: 'Medicals, Surveillance, etc.',
+        label: 'Destination 1',
+        key: '1',
+        description: 'Destination description',
         url: '#',
       },
       {
-        label: 'Safety Systems',
-        key: 'sms',
-        description: 'Audits, Ergonomics, etc.',
+        label: 'Destination 2',
+        key: '2',
+        description: 'Distination description',
         url: '/',
       },
       {
-        label: 'Wellness',
-        key: 'wellness',
-        description: 'EAP, Counselling...',
+        label: 'Destination 3',
+        key: '3',
+        description: 'Distination description',
+        url: '#',
+      },
+    ],
+  },
+activities: {
+    title: 'Activities',
+    url: '/',
+    items: [
+      {
+        label: 'Activity 1',
+        key: '1',
+        description: 'Activity description',
         url: '#',
       },
       {
-        label: 'Pandemic Response',
-        key: 'pandemic',
-        description: 'Support for outbreak control.',
+        label: 'Activity 2',
+        key: '2',
+        description: 'Activity description',
+        url: '/',
+      },
+      {
+        label: 'Activity 3',
+        key: '3',
+        description: 'Activity description',
+        url: '#',
+      },
+    ],
+  },
+safaris: {
+    title: 'Safari',
+    url: '/',
+    items: [
+      {
+        label: 'Safari 1',
+        key: '1',
+        description: 'Safari description',
+        url: '#',
+      },
+      {
+        label: 'Safari 2',
+        key: '2',
+        description: 'Safari description',
+        url: '/',
+      },
+      {
+        label: 'Safari 3',
+        key: '3',
+        description: 'Safari description',
         url: '#',
       },
     ],
