@@ -1,7 +1,7 @@
 <template>
-    <section id="get" class="font-lusitana bg-repeat bg-white text-gray-500 text-lg font-lusitana py-14 w-full">
+    <section id="get" class="font-lusitana bg-repeat bg-white text-gray-500 text-lg  py-14 w-full">
         <div class=" w-1/2 mx-auto py-2 text-center">
-            <h4 class="text-3xl pb-5">WELCOME</h4>
+            <h4 class="text-3xl pb-10 text-gray-800">WELCOME</h4>
 
             <p class="pb-10">
                 Boro Okavango River safari is a mobile safari operator based in Maun, the tourism capital of Botswana
