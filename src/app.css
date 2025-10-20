@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /* 1) Always first if used */
 @charset "UTF-8";
 
 /* 2) External CSS imports */
 @import "animate.css";
-@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* 3) Tailwind (must stay HERE) */
 @import "tailwindcss";
