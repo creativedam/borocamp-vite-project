@@ -1,12 +1,38 @@
+/* 1) Always first if used */
+@charset "UTF-8";
+
+/* 2) External CSS imports */
+@import "animate.css";
+@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* 3) Tailwind (must stay HERE) */
 @import "tailwindcss";
 
+/* 4) Theme or @layer BEFORE custom CSS */
+@theme {
+  --font-lusitana: "Lusitana", serif;
+  --font-roboto: "Roboto", sans-serif;
+}
 
+/* 5) Custom CSS classes (OK at bottom) */
 .image-11 {
   @apply bg-cover bg-center;
-  background-image: url('@/assets/image_1.jpg');
+  background-image: url("/src/assets/image_1.jpg"); /* IMPORTANT: NO @ in CSS */
 }
 
 .logo {
   @apply bg-cover bg-center;
-  background-image: url('@/assets/logo.png');
+  background-image: url("/src/assets/logo.png");
+}
+
+.bg-pattern {
+  background-image: url(/src/assets/pattern.svg);
+  background-repeat: repeat;
+  background-size: 50px;
+}
+
+@layer base {
+  p {
+    @apply pb-6;
+  }
 }

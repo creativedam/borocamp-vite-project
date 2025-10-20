@@ -41,9 +41,10 @@
         <div v-if="activeMenu === key"
           class="grid grid-cols-3 grid-rows-1 h-72 w-full drop-shadow-md border-t-4 border-org-200 z-30 overflow-hidden animate__animated animate__fadeIn">
           <!-- Menu Title -->
-          <div class="menu-title h-full py-5 px-8 bg-amber-900 text-white bg-opacity-50">
+          <div class="menu-title h-full py-5 px-8 bg-amber-900/90 text-white">
             <div class="overflow-hidden h-full ml-16">
-              <h1 class="text-4xl block text-left font-bold my-6 drop-shadow-md animate__animated animate__fadeInLeft">
+              <h1
+                class="text-4xl block text-left font-lusitana font-bold my-6 drop-shadow-md animate__animated animate__fadeInLeft">
                 {{ menu.title }}
               </h1>
               <span class="bg-org-200 w-10 h-1 block absolute top-28 left-8"></span>
@@ -51,7 +52,7 @@
           </div>
 
           <!-- Menu Items (Tabs) -->
-          <div class="level-one bg-white px-8 py-5 text-left text-gray-700 bg-opacity-90">
+          <div class="level-one bg-white/80 px-8 py-5 text-gray-700">
             <ul class="animate__animated animate__fadeInDown">
               <li v-for="item in menu.items" :key="item.key" class="mb-2 cursor-pointer">
                 <router-link class="py-1 pl-4 block hover:text-org-100 transition hover:border-l-4 border-transparent"
@@ -63,7 +64,7 @@
           </div>
 
           <!-- Tab Content -->
-          <div class="level-two bg-white px-8 py-5 text-left text-gray-700 bg-opacity-90">
+          <div class="level-two bg-white/80 px-8 py-5 text-left text-gray-700">
             <div v-for="item in menu.items" :key="item.key" v-show="activeTab === item.key"
               class="h-full p-3 pointer-events-none animate__animated animate__fadeInDown">
               {{ item.description }}
@@ -136,7 +137,7 @@ const menus = {
       },
     ],
   },
-activities: {
+  activities: {
     title: 'Activities',
     url: '/',
     items: [
@@ -160,7 +161,7 @@ activities: {
       },
     ],
   },
-safaris: {
+  safaris: {
     title: 'Safari',
     url: '/',
     items: [
