@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full bg-white  mx-auto  grid grid-cols-6 font-lusitana justify-between h-25 px-10 py-3 mb-2 md:mb-0 border-b border-amber-800 relative z-50  transition-all duration-300">
+    class="w-full bg-white  mx-auto   grid-cols-6 font-lusitana justify-between h-25 px-10 py-3 mb-2 md:mb-0 border-b border-amber-800 relative z-50 hidden sm:grid transition-all duration-300">
     <!-- Book Button (Mobile) -->
     <router-link
       class="block px-4 py-2 my-2 font-semibold text-base visible sm:hidden text-white shadow-sm absolute pt-2 md:pt-0 top-1 right-4"
