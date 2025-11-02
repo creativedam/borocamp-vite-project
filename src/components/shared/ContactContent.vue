@@ -11,7 +11,7 @@
                         :style="{ backgroundImage: `url(${drone_image})` }"></div>
 
                     <!-- Title -->
-                    <h1 class="text-2xl md:text-3xl text-amber-800 font-semibold mt-4">
+                    <h1 class="text-2xl md:text-3xl text-amber-800 mt-4">
                         Boro Okavango River Safari
                     </h1>
 
