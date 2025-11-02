@@ -1,7 +1,7 @@
 <template>
-    <div id="get" class=" font-lusitana bg-repeat bg-amber-600/50 py-8 w-full">
+    <div id="get" class=" font-lusitana bg-repeat bg-amber-600/60 py-10 w-full">
         <div class="container mx-auto px-4">
-            <div class="w-full relative py-5">
+            <div class="w-full relative py-4">
 
                 <!-- Title -->
                 <div>

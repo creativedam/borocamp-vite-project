@@ -1,5 +1,5 @@
 <template>
-    <section id="get" class="font-lusitana bg-repeat bg-gray-200 text-gray-500 text-lg  py-14 w-full">
+    <section id="get" class="font-lusitana bg-repeat bg-gray-100 text-gray-500 text-lg  py-14 w-full">
         <div class=" w-full px-10 sm:px-4 sm:w-1/2 mx-auto py-2 text-center">
             <h4 class="text-2xl pb-10 text-gray-800">WELCOME</h4>
 

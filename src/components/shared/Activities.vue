@@ -1,11 +1,11 @@
 <template>
     <section class="py-16 bg-white  font-lusitana">
-        <div class="container xl:w-full 2xl:w-1/2   mx-auto px-10 sm:px-4 ">
+        <div class="container xl:w-full 2xl:w-2/3   mx-auto px-10 sm:px-4 ">
             <h2 class="text-3xl text-center mb-10 a text-gray-800 tracking-wide">
                 SAFARI ACTIVITIES
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div v-for="(item, index) in items" :key="index" class="bg-gray-50 overflow-hidden flex flex-col">
+                <div v-for="(item, index) in items" :key="index" class=" overflow-hidden flex flex-col">
                     <img :src="item.image" :alt="item.label" class="w-full aspect-square object-cover " />
                     <div class="p-6 flex flex-col flex-1">
                         <h3 class="text-xl  mb-5 text-center">{{ item.label }}</h3>

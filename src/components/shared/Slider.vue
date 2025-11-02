@@ -1,10 +1,10 @@
 <template>
-  <div class="relative w-full h-140 overflow-hidden">
+  <div class="relative w-full h-150 overflow-hidden">
     <!-- Slides -->
     <div v-for="(slide, index) in slides" :key="index" class="absolute inset-0 transition-opacity duration-700"
       :class="currentSlide === index ? 'opacity-100' : 'opacity-0'">
       <!-- Background image -->
-      <div class="w-full h-140 relative bg-center bg-cover" :style="{ backgroundImage: `url(${slide.image})` }">
+      <div class="w-full h-150 relative bg-center bg-cover" :style="{ backgroundImage: `url(${slide.image})` }">
         <!-- Overlay content -->
         <div
           class="bg-transparent h-full flex flex-col justify-center  mx-auto items-center px-20 animate__animated animate__fadeInDown">

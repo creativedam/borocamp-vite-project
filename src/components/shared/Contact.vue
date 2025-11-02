@@ -1,18 +1,17 @@
 <template>
-    <section id="get" class="font-lusitana bg-repeat bg-gray-200 text-gray-500 text-lg  py-14 w-full">
+    <section id="get" class="font-lusitana bg-repeat bg-gray-100 text-gray-500 text-lg  py-14 w-full">
         <div class=" w-1/2 mx-auto py-2 text-center">
             <h4 class="font-bold pb-10 text-gray-800">Boro Okavango River Safari, Plot 24365, Sedie Ward, Maun</h4>
 
-            <p class="pb-10">
+            <p class="py-0">
                 + 267 73 807 099 | + 267 72 610 304
             </p>
             <a rel="noopener" data-ux-btn="external" data-ux="ButtonExternal" shape="SQUARE"
                 href="https://wa.me/26773807099" target="_blank" data-aid="CONTACT_INFO_WHATS_APP_REND"
                 data-tccl="ux2.contact.whatsapp.click,click" icon="whatsApp" data-typography="false"
-                class=" flex justify-center py-4">
+                class=" flex justify-center py-4 px-6 my-5 bg-white w-80 mx-auto border border-gray-400">
                 <span data-ux="Element" class=" relative"><svg viewBox="0 0 24 24" fill="currentColor" width="40px"
-                        height="40px" data-ux="Icon" class="x-el x-el-svg c2-41 c2-r c2-s c2-6t c2-4"><svg
-                            viewBox="0 0 496 497">
+                        height="40px" data-ux="Icon"><svg viewBox="0 0 496 497">
                             <defs>
                                 <linearGradient id="a" x1="247.32" x2="247.32" y1="446.09" y2="39.9"
                                     gradientUnits="userSpaceOnUse">
@@ -44,9 +43,6 @@
             <h4 class="font-bold pb-10 text-gray-800">Boro Okavango River Safari</h4>
             <p>
                 Plot 24365 Sedie Ward,Maun, Botswana
-            </p>
-            <p>
-                + 267 72 610 304
             </p>
 
         </div>

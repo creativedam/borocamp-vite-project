@@ -50,14 +50,15 @@
         <div v-if="activeMenu === key"
           class="grid grid-cols-3 grid-rows-1 h-72 w-full drop-shadow-md z-30 overflow-hidden animate__animated animate__fadeIn">
           <!-- Menu Title -->
-          <div class="menu-title h-full py-5 px-8 bg-amber-900/90 text-white">
-            <div class="overflow-hidden h-full ml-16">
-              <h1 class="text-4xl block text-center font-bold my-auto h-full relative drop-shadow-md">
+          <div class="menu-title h-full py-5 px-8 bg-amber-900/90 text-white flex items-center justify-center">
+            <div class="text-center relative">
+              <h1 class="text-4xl font-bold drop-shadow-md">
                 {{ menu.title }}
               </h1>
-              <span class="bg-org-200 w-10 h-1 block absolute top-28 left-8"></span>
+              <span class="bg-org-200 w-10 h-1 block absolute left-1/2 -translate-x-1/2 mt-2"></span>
             </div>
           </div>
+
 
           <!-- Menu Items -->
           <div class="level-one bg-white/80 px-8 py-5 text-gray-700">
