@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full bg-white  mx-auto  grid grid-cols-6 justify-between h-25 px-10 py-3 mb-2 md:mb-0 border-b border-amber-800 relative z-50  transition-all duration-300">
+    class="w-full bg-white  mx-auto  grid grid-cols-6 font-lusitana justify-between h-25 px-10 py-3 mb-2 md:mb-0 border-b border-amber-800 relative z-50  transition-all duration-300">
     <!-- Book Button (Mobile) -->
     <router-link
       class="block px-4 py-2 my-2 font-semibold text-base visible sm:hidden text-white shadow-sm absolute pt-2 md:pt-0 top-1 right-4"
@@ -52,7 +52,7 @@
           <!-- Menu Title -->
           <div class="menu-title h-full py-5 px-8 bg-amber-900/90 text-white flex items-center justify-center">
             <div class="text-center relative">
-              <h1 class="text-4xl font-bold drop-shadow-md">
+              <h1 class="text-4xl  drop-shadow-md">
                 {{ menu.title }}
               </h1>
               <span class="bg-org-200 w-10 h-1 block absolute left-1/2 -translate-x-1/2 mt-2"></span>
