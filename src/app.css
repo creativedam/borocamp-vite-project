@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-/* 1) Always first if used */
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap");
 
 /* 2) External CSS imports */
 @import "animate.css";
@@ -10,8 +8,11 @@
 
 /* 4) Theme or @layer BEFORE custom CSS */
 @theme {
-  --font-lusitana: "Lusitana", serif;
+  --font-lusitana: "Lusitana", Georgia, serif;
   --font-roboto: "Roboto", sans-serif;
+
+  --spacing-25: "104px";
+  --spacing-26: "112px";
 }
 
 /* 5) Custom CSS classes (OK at bottom) */

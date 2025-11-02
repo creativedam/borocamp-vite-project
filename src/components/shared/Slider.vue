@@ -7,36 +7,27 @@
       <div class="w-full h-140 relative bg-center bg-cover" :style="{ backgroundImage: `url(${slide.image})` }">
         <!-- Overlay content -->
         <div
-          class="bg-transparent  w-full h-full flex flex-col justify-center items-center px-20 animate__animated animate__fadeInDown">
-          <h1 class="text-white text-5xl font-medium mb-2 font-lusitana">
-            {{ slide.title }}
+          class="bg-transparent h-full flex flex-col justify-center  mx-auto items-center px-20 animate__animated animate__fadeInDown">
+          <h1 class="text-white text-4xl w-1/2 text-center mx-auto  font-medium font-lusitana mb-10"
+            v-html="slide.title">
           </h1>
-          <p class="text-white text-xl">{{ slide.subtitle }}</p>
+          <span class="text-white text-xl">{{ slide.subtitle }}</span>
+          <!-- Button -->
+          <div class="flex justify-center md:justify-end">
+            <router-link to="/tours"
+              class="bg-white px-6 py-3 w-full md:w-auto text-center font-lusitana text-gray-800 shadow-sm  hover:bg-gray-100 transition">
+              CHECK OUR TOURS
+            </router-link>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Prev Button -->
-    <!-- <button
-      @click="prevSlide"
-      class="absolute left-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-80 px-4 py-2"
-    >
-      ‹
-    </button> -->
-
-    <!-- Next Button -->
-    <!-- <button
-      @click="nextSlide"
-      class="absolute right-4 top-1/2 -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-80 px-4 py-2"
-    >
-      ›
-    </button> -->
   </div>
 </template>
 
 <script>
-import image1 from "@/assets/image_1.jpg";
-import image2 from "@/assets/image_2.jpg";
+
 export default {
   data() {
     return {
@@ -44,13 +35,13 @@ export default {
       slides: [
         {
           image: new URL("@/assets/image_1.jpg", import.meta.url).href, // replace with your image
-          title: "WELCOME  TO  BORO OKAVANGO SAFARI",
-          subtitle: "Boro Okavango Safari",
+          title: "WELCOME<br>TO<br>BORO OKAVANGO SAFARI",
+          subtitle: "",
         },
         {
           image: new URL("@/assets/image_2.jpg", import.meta.url).href, // replace with your image
-          title: "WELCOME  TO  BORO OKAVANGO SAFARI",
-          subtitle: "Boro Okavango Safari",
+          title: "WELCOME<br>TO<br>BORO OKAVANGO SAFARI",
+          subtitle: "",
         },
       ],
     };
