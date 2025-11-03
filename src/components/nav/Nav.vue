@@ -116,30 +116,6 @@ const toggleMobileDropdown = (key) =>
 const logo = new URL("@/assets/logo.png", import.meta.url).href;
 
 const menus = {
-  about: {
-    title: "ABOUT",
-    url: "/about",
-    items: [
-      {
-        label: "Mission",
-        key: "mission",
-        description: "Our mission",
-        url: "/about",
-      },
-      {
-        label: "Vision",
-        key: "vision",
-        description: "Our vision",
-        url: "/about",
-      },
-      {
-        label: "Values",
-        key: "values",
-        description: "Our values",
-        url: "/about",
-      },
-    ],
-  },
   destinations: {
     title: "DESTINATIONS",
     url: "/destinations",
@@ -166,11 +142,13 @@ const menus = {
   },
   activities: {
     title: "ACTIVITIES",
-    url: "/",
+    url: "/activities",
     items: [
-      { label: "Activity 1", key: "1", description: "Description", url: "#" },
-      { label: "Activity 2", key: "2", description: "Description", url: "/" },
-      { label: "Activity 3", key: "3", description: "Description", url: "#" },
+      { label: "MOBILE SAFARI", key: "1", description: "These are ideal for a fun-filled and relaxed holiday.", url: "#" },
+      { label: "CAMPING", key: "2", description: "Our campsite is spacious with seven open campgrounds", url: "#" },
+      { label: "BOAT CRUISE", key: "3", description: "Exciting motorboat cruises offered as day trips or part of a mobile safari.", url: "#" },
+      { label: "CULTURAL TOURS", key: "3", description: "Description", url: "#" },
+      { label: "MOKORO EXCURDSIONS", key: "3", description: "Description", url: "#" },
     ],
   },
   safari: {
