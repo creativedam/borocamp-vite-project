@@ -1,7 +1,6 @@
 <template>
   <div class="home w-full">
     <Top />
-    <MobileNav />
     <Nav />
     <Slider />
     <Strip />
@@ -19,7 +18,6 @@
 <script>
 import Top from "@/components/Top.vue";
 import Nav from "@/components/nav/Nav.vue";
-import MobileNav from "@/components/nav/MobileNav.vue";
 import Footer from "@/components/Shared/Footer.vue";
 import Slider from "@/components/Shared/Slider.vue";
 import Strip from "@/components/Shared/Strip.vue";
@@ -39,7 +37,6 @@ export default {
     About,
     Activities,
     Contact,
-    MobileNav,
     Partners
   },
 };
