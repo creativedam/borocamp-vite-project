@@ -1,4 +1,5 @@
 <template>
+
   <svg v-if="name === 'facebook'" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
     shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
     fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink">

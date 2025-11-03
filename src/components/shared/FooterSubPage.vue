@@ -5,7 +5,7 @@
         <section class="w-full bg-white text-slate-800 pt-8">
             <div class="container mx-auto px-5 flex justify-center sm:justify-start">
                 <div class="w-12 h-12 mx-auto">
-                    <social name="facebook" class="w-full h-full fill-gray-200 hover:fill-aky-800" />
+                    <social name="facebook" class="block w-12 h-12 fill-gray-500 hover:fill-sky-700" />
                 </div>
             </div>
         </section>
