@@ -87,7 +87,7 @@
               <li v-for="item in menu.items" :key="item.key">
                 <router-link @click="mobileOpen = false" :to="item.url" class="block py-1 text-amber-600 text-sm">{{
                   item.label
-                }}</router-link>
+                  }}</router-link>
               </li>
             </ul>
           </li>
@@ -144,20 +144,24 @@ const menus = {
     title: "ACTIVITIES",
     url: "/activities",
     items: [
-      { label: "MOBILE SAFARI", key: "1", description: "These are ideal for a fun-filled and relaxed holiday.", url: "#" },
-      { label: "CAMPING", key: "2", description: "Our campsite is spacious with seven open campgrounds", url: "#" },
-      { label: "BOAT CRUISE", key: "3", description: "Exciting motorboat cruises offered as day trips or part of a mobile safari.", url: "#" },
-      { label: "CULTURAL TOURS", key: "3", description: "Description", url: "#" },
-      { label: "MOKORO EXCURDSIONS", key: "3", description: "Description", url: "#" },
+      { label: "MOBILE SAFARI", key: "1", description: "These are ideal for a fun-filled and relaxed holiday.", url: "/activities/mobile" },
+      { label: "CAMPING", key: "2", description: "Our campsite is spacious with seven open campgrounds", url: "/activities/camping" },
+      { label: "BOAT CRUISE", key: "3", description: "Exciting motorboat cruises offered as day trips or part of a mobile safari. Explore Thamalakane River, Boro Channel, Xakanaxa, and Chobe River for scenic water adventures.", url: "/activities/boat" },
+      { label: "CULTURAL TOURS", key: "4", description: "Engage with local communities through song, dance, arts, and crafts. Day trips to the Okavango Delta or Tsodilo Hills to experience the culture of the San, Bayei, and Hambukushu.", url: "/activities/cultural" },
+      { label: "MOKORO EXCURDSIONS", key: "5", description: "Experience mokoro rides combined with walking safaris near camp. Great for spotting birds and wildlife. Offered as a day trip or part of mobile safari activities.", url: "/activities/mokoro" },
     ],
   },
   safari: {
     title: "SAFARI",
     url: "/safaris",
     items: [
-      { label: "OKAVANGO DELTA BY MOKORO + MOREMI TRIP", key: "1", description: "Exhilarating canoe rides, Spectacular views of the delta, Close encounter with nature, Variety of bird species, Walking safari, Moremi day trip", url: "#" },
-      { label: "Safari 2", key: "2", description: "Description", url: "/" },
-      { label: "Safari 3", key: "3", description: "Description", url: "#" },
+      { label: "OKAVANGO DELTA BY MOKORO + MOREMI TRIP", key: "1", description: "Exhilarating canoe rides, Spectacular views of the delta, Close encounter with nature, Variety of bird species, Walking safari, Moremi day trip", url: "/safari/1" },
+      { label: "MOREMI + KHWAI ", key: "2", description: "Experience the unparalleled beauty of Moremi, Vast expanse of the pristine wilderness, Track the big five Camp within the game reserve", url: "/safari/2" },
+      { label: "MOREMI + KHWAI + SAVUTE", key: "3", description: "Experience the unparalleled beauty of Moremi, Vast expanse of the pristine wilderness, Track the big five in Savute. This is the home of the predators, Camp within the game reserve", url: "/safari/3" },
+      { label: "TSODILO HILLS + OKAVANGO PAN HANDLE TRAIL", key: "4", description: "Visit Tsodilo Hills – the “mountains of the gods” Okavango River boat cruise – pan handle, Local Handicrafts/souvenir market and Cultural dance around the fire – can be arranged at an extra cost", url: "/safari/4" },
+      { label: "OKAVANGO +MOREMI + MAKGADIKGADI SAFARI", key: "5", description: "Canoe ride, Spectacular views of the delta, Makgadikgadi pans, Nxai Pan, Baines Baobab, Kubu Island, Big Five in Moremi game reserve", url: "/safari/5" },
+      { label: "OKAVANGO + MOREMI + KHWAI + SAVUTE + CHOBE", key: "6", description: "Experience the unparalleled beauty of the Okavango, Moremi and Chobe National Park, Vast expanse of the pristine wilderness, Track the big five, Boat cruise on the mighty Chobe River, Camp within the game reserve", url: "/safari/7" },
+      { label: "OKAVANGO +MOREMI + KHWAI + SAVUTE +CHOBE +VICTORIA FALLS", key: "7", description: "Experience the unparalleled beauty of Moremi/Chobe National Park, A vast expanse of the pristine wilderness, Track the big five, Boat cruise on the mighty Chobe River, Victoria Falls day trip, Cultural exchange.", url: "/safari/7" },
     ],
   },
 };
