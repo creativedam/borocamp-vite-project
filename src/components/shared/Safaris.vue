@@ -4,7 +4,7 @@
             <p class="text-sm  font-normal w-full text-center  text-amber-500 ">
                 TRIPS IN OKAVANGO, MOREMI, CHOBE, VICTORIA FALLS
             </p>
-            <h2 class="text-2xl md:text-4xl font-normal text-center mb-12 tracking-wide">
+            <h2 class="text-2xl font-normal text-center mb-12 tracking-wide">
                 TAILOR MADE SAFARIS
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

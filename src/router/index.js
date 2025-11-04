@@ -10,12 +10,15 @@ import Safari from "../views/Safari.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
+    // Main Routes
     { path: "/", name: "Home", component: Home },
     { path: "/about", name: "About", component: About },
     { path: "/contacts", name: "Contacts", component: Contacts },
     { path: "/destinations", name: "Destination", component: Destinations },
     { path: "/activities", name: "Activities", component: Activities },
     { path: "/safaris", name: "Safari", component: Safari },
+
+    // Safaries
   ],
 });
 
