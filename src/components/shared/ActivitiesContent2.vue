@@ -10,7 +10,7 @@
                     </div>
 
                     <a :href="item.link"
-                        class="mt-6 inline-block text-center border border-amber-700 text-amber-700 py-2 px-4 rounded-lg font-medium hover:bg-amber-700 hover:text-white transition">
+                        class="mt-6 inline-block text-center border border-amber-700 text-amber-700 py-2 px-4  font-medium hover:bg-amber-700 hover:text-white transition">
                         BOOK ACTIVITY NOW
                     </a>
                 </div>

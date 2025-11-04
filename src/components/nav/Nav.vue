@@ -153,9 +153,9 @@ const menus = {
   },
   safari: {
     title: "SAFARI",
-    url: "/",
+    url: "/safaris",
     items: [
-      { label: "Safari 1", key: "1", description: "Description", url: "#" },
+      { label: "OKAVANGO DELTA BY MOKORO + MOREMI TRIP", key: "1", description: "Exhilarating canoe rides, Spectacular views of the delta, Close encounter with nature, Variety of bird species, Walking safari, Moremi day trip", url: "#" },
       { label: "Safari 2", key: "2", description: "Description", url: "/" },
       { label: "Safari 3", key: "3", description: "Description", url: "#" },
     ],

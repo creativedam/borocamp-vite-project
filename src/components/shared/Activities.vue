@@ -8,8 +8,10 @@
                 <div v-for="(item, index) in items" :key="index" class=" overflow-hidden flex flex-col">
                     <img :src="item.image" :alt="item.label" class="w-full aspect-square object-cover " />
                     <div class="p-6 flex flex-col flex-1">
-                        <h3 class="text-xl  mb-5 text-center">{{ item.label }}</h3>
-                        <p class="text-gray-500  text-lg font-light  leading-relaxed flex-1 text-center">
+                        <h3 class="text-xl  mb-5 text-center animate__animated animate__fadeInDown">{{ item.label }}
+                        </h3>
+                        <p
+                            class="text-gray-500  text-lg font-light  leading-relaxed flex-1 text-center animate__animated animate__fadeInRight">
                             {{ item.description }}
                         </p>
                     </div>

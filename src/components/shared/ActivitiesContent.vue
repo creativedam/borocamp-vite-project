@@ -14,7 +14,7 @@
                     <p class="text-gray-700 mb-4">{{ item.description }}</p>
 
                     <router-link :to="item.link"
-                        class="px-4 py-2 inline-block border border-amber-700 text-amber-700 hover:bg-amber-700 hover:text-white rounded-md transition">
+                        class="px-4 py-2 inline-block border border-amber-700 text-amber-700 hover:bg-amber-700 hover:text-white  transition">
                         {{ item.buttonText }}
                     </router-link>
                 </div>

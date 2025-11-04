@@ -23,7 +23,7 @@
                     </p>
 
                     <a :href="pdfUrl" target="_blank" rel="noopener"
-                        class="inline-flex items-center gap-2 bg-amber-700 hover:bg-amber-800 text-white px-6 py-3 rounded-md shadow-md transition">
+                        class="inline-flex items-center gap-2 bg-amber-700 hover:bg-amber-800 text-white px-6 py-3  shadow-md transition">
                         Download PDF
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                             class="w-5 h-5">
