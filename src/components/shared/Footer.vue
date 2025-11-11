@@ -12,21 +12,21 @@
 
         <!-- FOOTER -->
         <footer class="w-full bg-amber-800 text-white py-4">
-            <div class="container mx-auto px-5">
+            <div class=" container lg:w-full mx-auto px-5">
                 <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
 
                     <!-- COPYRIGHT TEXT -->
                     <div class="text-center md:text-left text-sm">
                         <span class="font-sans font-normal block">
-                            Copyright © 2023 Borocamp Okavango Safari | All rights reserved | Borocamp Okavango Safari
+                            All Rights Reserved. Borocamp Okavango Safari © 2023 | Disclaimer
                         </span>
                     </div>
 
                     <!-- DESIGNER CREDIT -->
                     <div class="text-center md:text-right text-sm">
-                        <a href="creativedam"
+                        <a href="https://creativedam.co.bw" target="_blank"
                             class="font-sans font-normal text-white hover:text-fuchsia-500 block md:inline">
-                            Designed and Developed by <span>Creative Dam</span>
+                            Designer and Developer
                         </a>
                     </div>
 

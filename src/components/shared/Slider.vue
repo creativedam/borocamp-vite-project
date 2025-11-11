@@ -14,7 +14,7 @@
           <span class="text-white text-xl">{{ slide.subtitle }}</span>
           <!-- Button -->
           <div class="flex justify-center md:justify-end">
-            <router-link to="/tours"
+            <router-link to="/safaris"
               class="bg-white px-6 py-3 w-full md:w-auto text-center font-lusitana text-gray-800 shadow-sm  hover:bg-gray-100 transition">
               CHECK OUR TOURS
             </router-link>

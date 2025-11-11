@@ -38,26 +38,26 @@
       <div v-for="(menu, key) in menus" :key="key" class="w-full absolute top-28 -mt-2 left-0 right-0"
         @mouseenter="activeMenu = key" @mouseleave="closeMenus">
         <div v-if="activeMenu === key"
-          class="grid grid-cols-3 h-72 w-full drop-shadow-md z-30 overflow-hidden animate__animated animate__fadeIn">
+          class="grid grid-cols-3 h-75 w-full drop-shadow-md z-30 overflow-hidden animate__animated animate__fadeIn">
           <div class="menu-title flex items-center justify-center bg-amber-900/90 text-white">
             <div class="text-center relative">
               <h1 class="text-4xl drop-shadow-md">{{ menu.title }}</h1>
               <span class="bg-org-200 w-10 h-1 block absolute left-1/2 -translate-x-1/2 mt-2"></span>
             </div>
           </div>
-
-          <div class="bg-white/80 px-8 py-5 text-gray-700">
+          <div class="bg-white/80 px-8 py-5 text-gray-700 flex flex-col justify-center">
             <ul class="animate__animated animate__fadeInDown">
               <li v-for="item in menu.items" :key="item.key" class="mb-2 cursor-pointer block w-full">
                 <router-link class="py-1 pl-4 block hover:text-org-100 transition hover:border-l-4 border-transparent"
-                  :to="item.url" @mouseover="activeTab = item.key">{{ item.label }}</router-link>
+                  :to="item.url" @mouseover="activeTab = item.key">
+                  {{ item.label }}
+                </router-link>
               </li>
             </ul>
           </div>
-
-          <div class="bg-white/80 px-8 py-5 text-left text-gray-700">
+          <div class="bg-white/80 px-8 py-5 text-left text-gray-700 flex flex-col justify-center">
             <div v-for="item in menu.items" :key="item.key" v-show="activeTab === item.key"
-              class="h-full p-3 pointer-events-none animate__animated animate__fadeInDown">
+              class="p-3 pointer-events-none animate__animated animate__fadeInDown">
               {{ item.description }}
             </div>
           </div>
@@ -121,23 +121,11 @@ const menus = {
     url: "/destinations",
     items: [
       {
-        label: "Destination 1",
+        label: "WHERE ADVENTURE BEGINS",
         key: "1",
-        description: "Description",
+        description: "Discover Botswana’s most breathtaking safari destinations — from the crystal waters of the Okavango Delta to the vast savannas of Chobe and the ancient magic of Tsodilo Hills. Each location offers a unique blend of wildlife, culture, and scenic beauty for unforgettable experiences.",
         url: "/destinations",
-      },
-      {
-        label: "Destination 2",
-        key: "2",
-        description: "Description",
-        url: "/destinations",
-      },
-      {
-        label: "Destination 3",
-        key: "3",
-        description: "Description",
-        url: "/destinations",
-      },
+      }
     ],
   },
   activities: {

@@ -15,7 +15,7 @@
                     </div>
                     <!-- Button -->
 
-                    <router-link to="/tours"
+                    <router-link to="#"
                         class="bg-white px-6 py-3 w-full md:w-auto text-center font-lusitana text-amber-600 shadow-sm border border-amber-600 hover:bg-gray-100 transition">
                         EXPLORE
                     </router-link>
