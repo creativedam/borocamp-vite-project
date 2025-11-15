@@ -20,7 +20,7 @@ const router = createRouter({
     { path: "/activities", name: "Activities", component: Activities },
     { path: "/safaris", name: "Safari", component: Safari },
     { path: "/activities/mobile", name: "Mobile", component: MobileSafari },
-    // { path: "/activities/camping", name: "Camping", component: Camping },
+    { path: "/activities/camping", name: "Camping", component: Camping },
     // { path: "/activities/boat", name: "Boat", component: BoatSafari },
     // { path: "/activities/cultural", name: "Cultural", component: Cultural },
     // { path: "/activities/mokoro", name: "Mokoro", component: Mokoro },
