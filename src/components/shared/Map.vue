@@ -13,11 +13,9 @@
                 <div class="w-full bg-white text-slate-800 py-12 flex items-center">
                     <div class="w-full max-w-xl mx-auto px-6 md:px-10">
 
-
-
                         <!-- Intro -->
                         <div class="text-left mx-auto mb-10">
-                            <h4 class="text-xl md:text-2xl mb-4">Start up a Conversation</h4>
+                            <h4 class="text-xl md:text-2xl mb-4">START UP A CONVERSATION</h4>
                             <p class="text-slate-600 leading-relaxed">
                                 I love to hear from fellow travelers! Have a question <br />about some of my recent
                                 trips?
@@ -27,26 +25,24 @@
 
                         <!-- Business Info -->
                         <div class="text-left">
-                            <h4 class="text-xl md:text-2xl ">Boro Okavango River Safari</h4>
+                            <h4 class="text-xl md:text-2xl ">BORO OKAVANGO RIVER SAFARI</h4>
                             <p class="text-slate-500">Boro Okavango River Safari, Maun, Botswana</p>
                         </div>
 
                     </div>
                 </div>
 
-
                 <!-- Left Content -->
                 <div class="w-full bg-white text-slate-800 py-12 flex items-center">
                     <div class="w-full max-w-xl mx-auto px-6 md:px-10">
                         <!-- Office Info -->
                         <div class="mb-10">
-                            <h4 class="text-xl md:text-2xl mb-4">Our Office</h4>
-                            <p class="mt-2 leading-relaxed text-slate-500">
+                            <h4 class="text-xl md:text-2xl mb-4">OUR OFFICE</h4>
+                            <p class="mt-2 text-slate-500">
                                 Plot 24365 Sedie Ward, Maun, Botswana<br>
                                 Mobile: +267 73 807 099 | 72 610 304<br>
                                 Email:
-                                <a href="mailto:res@borocamp.com"
-                                    class="font-semibold text-amber-700 underline hover:text-amber-600">
+                                <a href="mailto:res@borocamp.com" class="text-amber-700 underline hover:text-amber-600">
                                     res@borocamp.com
                                 </a>
                             </p>
@@ -55,8 +51,8 @@
                         <!-- Camp Info -->
                         <div>
                             <h4 class="text-lg font-bold">BORO CAMP GROUNDS</h4>
-                            <p class="mt-2 leading-relaxed text-slate-500">
-                                <strong>Boro Camp with GPS coordinates:</strong><br>
+                            <p class="mt-2 text-slate-500">
+                                Boro Camp with GPS coordinates:<br>
                                 S 19° 51′ 04.48″ E 23° 26′ 00.55″<br>
                                 Elevation 941 m along Boro main channel.
                             </p>
