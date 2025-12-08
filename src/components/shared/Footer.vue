@@ -26,7 +26,7 @@
                     <div class="text-center md:text-right text-sm">
                         <a href="https://creativedam.co.bw" target="_blank"
                             class="font-sans font-normal text-white hover:text-fuchsia-500 block md:inline">
-                            Designer and Developer
+                            Design and Development
                         </a>
                     </div>
 

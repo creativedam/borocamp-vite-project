@@ -17,7 +17,7 @@
 
 <script>
 import Top from "@/components/Top.vue";
-import Nav from "@/components/nav/Nav.vue";
+import Nav from "@/components/Nav/Nav.vue";
 import Footer from "@/components/Shared/Footer.vue";
 import Slider from "@/components/Shared/Slider.vue";
 import Strip from "@/components/Shared/Strip.vue";

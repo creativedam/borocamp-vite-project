@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full bg-white mx-auto grid grid-cols-6 font-lusitana justify-between h-32 sm:h-25 px-4 md:px-10 py-3  border-b border-amber-800 relative z-50 transition-all duration-300">
+    class="w-full bg-white mx-auto grid grid-cols-6 font-lusitana justify-between  min-h-32 sm:h-25 px-4 md:px-10 py-3  border-b border-amber-800 relative z-50 transition-all duration-300">
     <!-- MOBILE BURGER BUTTON -->
     <button @click="mobileOpen = !mobileOpen"
       class="sm:hidden flex items-center h-25 text-amber-800 text-3xl font-bold">
@@ -38,7 +38,7 @@
       <div v-for="(menu, key) in menus" :key="key" class="w-full absolute top-28 -mt-2 left-0 right-0"
         @mouseenter="activeMenu = key" @mouseleave="closeMenus">
         <div v-if="activeMenu === key"
-          class="grid grid-cols-3 h-75 w-full drop-shadow-md z-30 overflow-hidden animate__animated animate__fadeIn">
+          class="grid grid-cols-3 min-h-75 w-full drop-shadow-md z-30 overflow-hidden animate__animated animate__fadeIn">
           <div class="menu-title flex items-center justify-center bg-amber-900/90 text-white">
             <div class="text-center relative">
               <h1 class="text-4xl drop-shadow-md">{{ menu.title }}</h1>
@@ -48,7 +48,7 @@
           <div class="bg-white/80 px-8 py-5 text-gray-700 flex flex-col justify-center">
             <ul class="animate__animated animate__fadeInDown">
               <li v-for="item in menu.items" :key="item.key" class="mb-2 cursor-pointer block w-full">
-                <router-link class="py-1 pl-4 block hover:text-org-100 transition hover:border-l-4 border-transparent"
+                <router-link class="py-1 pl-4 block hover:text-org-100 transition hover:font-bold border-transparent"
                   :to="item.url" @mouseover="activeTab = item.key">
                   {{ item.label }}
                 </router-link>
@@ -87,7 +87,7 @@
               <li v-for="item in menu.items" :key="item.key">
                 <router-link @click="mobileOpen = false" :to="item.url" class="block py-1 text-amber-600 text-sm">{{
                   item.label
-                  }}</router-link>
+                }}</router-link>
               </li>
             </ul>
           </li>

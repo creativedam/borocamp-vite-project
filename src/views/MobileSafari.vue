@@ -13,7 +13,7 @@
 
 <script>
 import Top from '@/components/Top.vue'
-import Nav from '../components/nav/Nav.vue';
+import Nav from '../components/Nav/Nav.vue';
 import Partners from '../components/Shared/Partners.vue';
 import FooterSubPage from '../components/Shared/FooterSubPage.vue';
 import ContentSection1 from '../components/MobileSafari/ContentSection1.vue';

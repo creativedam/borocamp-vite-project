@@ -13,7 +13,7 @@
 <script>
 
 import Top from '@/components/Top.vue';
-import Nav from '../components/nav/Nav.vue';
+import Nav from '../components/Nav/Nav.vue';
 import ActivitiesContent from '../components/shared/ActivitiesContent.vue';
 import ActivitiesPoster from '../components/shared/ActivitiesPoster.vue';
 import ActivitiesContent2 from '../components/shared/ActivitiesContent2.vue';

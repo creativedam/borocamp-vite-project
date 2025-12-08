@@ -11,7 +11,7 @@
 
 <script>
 import Top from '@/components/Top.vue'
-import Nav from '../components/nav/Nav.vue';
+import Nav from '../components/Nav/Nav.vue';
 import Map from '../components/Shared/Map.vue';
 import FooterSubPage from '../components/Shared/FooterSubPage.vue';
 import ContactContent from '../components/shared/ContactContent.vue';
