@@ -20,7 +20,7 @@ const routes = [
   { path: "/activities", name: "Activities", component: Activities },
   { path: "/safaris", name: "Safari", component: Safari },
   {
-    path: "/safaris/okavango-delta-mokoro-moremi",
+    path: "/safaris/okavango-delta-mokoro-moremi-scenic-safari",
     name: "OkavangoDeltaMokoroMoremi",
     component: OkavangoDeltaMokoroMoremi,
   },

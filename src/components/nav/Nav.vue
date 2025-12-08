@@ -143,7 +143,7 @@ const menus = {
     title: "SAFARI",
     url: "/safaris",
     items: [
-      { label: "OKAVANGO DELTA BY MOKORO + MOREMI TRIP", key: "1", description: "Exhilarating canoe rides, Spectacular views of the delta, Close encounter with nature, Variety of bird species, Walking safari, Moremi day trip", url: "/safaris/okavango-delta-mokoro-moremi" },
+      { label: "OKAVANGO DELTA BY MOKORO + MOREMI TRIP", key: "1", description: "Exhilarating canoe rides, Spectacular views of the delta, Close encounter with nature, Variety of bird species, Walking safari, Moremi day trip", url: "/safaris/okavango-delta-mokoro-moremi-scenic-safari" },
       { label: "MOREMI + KHWAI ", key: "2", description: "Experience the unparalleled beauty of Moremi, Vast expanse of the pristine wilderness, Track the big five Camp within the game reserve", url: "/safaris" },
       { label: "MOREMI + KHWAI + SAVUTE", key: "3", description: "Experience the unparalleled beauty of Moremi, Vast expanse of the pristine wilderness, Track the big five in Savute. This is the home of the predators, Camp within the game reserve", url: "/safaris" },
       { label: "TSODILO HILLS + OKAVANGO PAN HANDLE TRAIL", key: "4", description: "Visit Tsodilo Hills – the “mountains of the gods” Okavango River boat cruise – pan handle, Local Handicrafts/souvenir market and Cultural dance around the fire – can be arranged at an extra cost", url: "/safaris" },
