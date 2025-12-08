@@ -9,6 +9,7 @@ import Safari from "../views/Safari.vue";
 import MobileSafari from "../views/MobileSafari.vue";
 import Camping from "../views/Camping.vue";
 import NotFound from "../views/NotFound.vue";
+import OkavangoDeltaMokoroMoremi from "../views/Safaris/Okavango-delta-mokoro-moremi.vue";
 
 const routes = [
   // Main Routes
@@ -18,6 +19,12 @@ const routes = [
   { path: "/destinations", name: "Destination", component: Destinations },
   { path: "/activities", name: "Activities", component: Activities },
   { path: "/safaris", name: "Safari", component: Safari },
+  {
+    path: "/safaris/okavango-delta-mokoro-moremi",
+    name: "OkavangoDeltaMokoroMoremi",
+    component: OkavangoDeltaMokoroMoremi,
+  },
+
   { path: "/activities/mobile", name: "Mobile", component: MobileSafari },
   { path: "/activities/camping", name: "Camping", component: Camping },
 

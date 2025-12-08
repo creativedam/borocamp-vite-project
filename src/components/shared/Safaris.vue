@@ -45,7 +45,7 @@ const items = [
         description: "Exhilarating canoe rides, Spectacular views of the delta, Close encounter with nature, Variety of bird species, Walking safari, Moremi day trip",
         price: "FROM USD$ 990/pp",
         pax: "Minimum 2pax",
-        url: "/safari/okavango-delta-mokoro-moremi",
+        url: "/safaris/okavango-delta-mokoro-moremi",
     },
     {
         label: "MOREMI + KHWAI SAFARI",

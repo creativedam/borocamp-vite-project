@@ -29,7 +29,7 @@ const props = defineProps({
     description: {
         type: String,
         default:
-            "]Camping in the heart of the safari offers an authentic and immersive wilderness experience, allowing guests to connect closely with nature while enjoying the peace and beauty of the outdoors.Our spacious tents provide a comfortable retreat, complete with cozy bedding, private bush shower facilities, and essential amenities to ensure a relaxing stay in the wild.Meals are freshly prepared on-site, and evenings are spent around the campfire, creating a warm atmosphere perfect for storytelling, stargazing, and appreciating the serenity of the bush."
+            "Camping in the heart of the safari offers an authentic and immersive wilderness experience, allowing guests to connect closely with nature while enjoying the peace and beauty of the outdoors.Our spacious tents provide a comfortable retreat, complete with cozy bedding, private bush shower facilities, and essential amenities to ensure a relaxing stay in the wild.Meals are freshly prepared on-site, and evenings are spent around the campfire, creating a warm atmosphere perfect for storytelling, stargazing, and appreciating the serenity of the bush."
     }
 });
 </script>
