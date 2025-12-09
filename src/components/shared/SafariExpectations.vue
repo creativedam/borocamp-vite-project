@@ -7,6 +7,7 @@
                 <h2 class="text-xl md:text-2xl font-medium tracking-wide">
                     {{ title }}
                 </h2>
+                <p class=" font-normal"> {{ duration }} </p>
             </div>
 
             <!-- List -->
@@ -27,6 +28,10 @@ const props = defineProps({
     title: {
         type: String,
         default: "WHAT TO EXPECT",
+    },
+    duration: {
+        type: String,
+        default: "7 DAYS - 6 NIGHTS",
     },
     items: {
         type: Array,

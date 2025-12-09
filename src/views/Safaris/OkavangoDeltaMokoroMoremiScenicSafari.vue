@@ -3,7 +3,7 @@
         <Top />
         <Nav />
         <SafariBanner title="Okavango Delta Mokoro Moremi Scenic Safari" />
-        <SafariExpectations title="WHAT TO EXPECT" :items="[
+        <SafariExpectations title="WHAT TO EXPECT" duration="5 DAYS - 5 NIGHTS" :items="[
             'Exhilarating canoe rides',
             'Spectacular views of the delta',
             'Close encounters with nature',
