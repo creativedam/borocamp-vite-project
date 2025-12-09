@@ -87,7 +87,7 @@
               <li v-for="item in menu.items" :key="item.key">
                 <router-link @click="mobileOpen = false" :to="item.url" class="block py-1 text-amber-600 text-sm">{{
                   item.label
-                }}</router-link>
+                  }}</router-link>
               </li>
             </ul>
           </li>
@@ -139,19 +139,54 @@ const menus = {
       { label: "MOKORO EXCURDSIONS", key: "5", description: "Experience mokoro rides combined with walking safaris near camp. Great for spotting birds and wildlife. Offered as a day trip or part of mobile safari activities.", url: "/activities" },
     ],
   },
-  safari: {
-    title: "SAFARI",
+  safaris: {
+    title: "SAFARIS",
     url: "/safaris",
     items: [
-      { label: "OKAVANGO DELTA BY MOKORO + MOREMI TRIP", key: "1", description: "Exhilarating canoe rides, Spectacular views of the delta, Close encounter with nature, Variety of bird species, Walking safari, Moremi day trip", url: "/safaris/okavango-delta-mokoro-moremi-scenic-safari" },
-      { label: "MOREMI + KHWAI ", key: "2", description: "Experience the unparalleled beauty of Moremi, Vast expanse of the pristine wilderness, Track the big five Camp within the game reserve", url: "/safaris" },
-      { label: "MOREMI + KHWAI + SAVUTE", key: "3", description: "Experience the unparalleled beauty of Moremi, Vast expanse of the pristine wilderness, Track the big five in Savute. This is the home of the predators, Camp within the game reserve", url: "/safaris" },
-      { label: "TSODILO HILLS + OKAVANGO PAN HANDLE TRAIL", key: "4", description: "Visit Tsodilo Hills – the “mountains of the gods” Okavango River boat cruise – pan handle, Local Handicrafts/souvenir market and Cultural dance around the fire – can be arranged at an extra cost", url: "/safaris" },
-      { label: "OKAVANGO +MOREMI + MAKGADIKGADI SAFARI", key: "5", description: "Canoe ride, Spectacular views of the delta, Makgadikgadi pans, Nxai Pan, Baines Baobab, Kubu Island, Big Five in Moremi game reserve", url: "/safaris" },
-      { label: "OKAVANGO + MOREMI + KHWAI + SAVUTE + CHOBE", key: "6", description: "Experience the unparalleled beauty of the Okavango, Moremi and Chobe National Park, Vast expanse of the pristine wilderness, Track the big five, Boat cruise on the mighty Chobe River, Camp within the game reserve", url: "/safaris" },
-      { label: "OKAVANGO +MOREMI + KHWAI + SAVUTE +CHOBE +VICTORIA FALLS", key: "7", description: "Experience the unparalleled beauty of Moremi/Chobe National Park, A vast expanse of the pristine wilderness, Track the big five, Boat cruise on the mighty Chobe River, Victoria Falls day trip, Cultural exchange.", url: "/safaris" },
+      {
+        label: "Moremi–Khwai Safari Experience",
+        key: "2",
+        description: "Experience the unparalleled beauty of Moremi, vast expanse of the pristine wilderness, track the big five, camp within the game reserve.",
+        url: "/safari/moremi-khwai-safari-experience"
+      },
+
+      {
+        label: "Moremi–Khwai–Savute Expedition",
+        key: "3",
+        description: "Experience the unparalleled beauty of Moremi, vast expanse of pristine wilderness, track the big five in Savute. This is the home of the predators. Camp within the game reserve.",
+        url: "/safari/moremi-khwai-savute-expedition"
+      },
+
+      {
+        label: "Okavango Delta Mokoro + Moremi Scenic Safari",
+        key: "1",
+        description: "Exhilarating canoe rides, spectacular views of the delta, close encounter with nature, variety of bird species, walking safari, Moremi day trip.",
+        url: "/safari/okavango-delta-mokoro-moremi-scenic-safari"
+      },
+
+      {
+        label: "Okavango–Moremi–Khwai–Savute–Chobe–Victoria Falls Grand Safari",
+        key: "7",
+        description: "Experience the unparalleled beauty of Victoria Falls, Okavango, Moremi, Khwai, Savute, and Chobe National Parks. Vast expanse of pristine wilderness, track the big five, boat cruise on the mighty Chobe River, camp within the game reserves.",
+        url: "/safari/okavango-moremi-khwai-savute-chobe-victoria-falls-grand-safari"
+      },
+
+      {
+        label: "Okavango–Moremi–Makgadikgadi Safari Adventure",
+        key: "5",
+        description: "Canoe ride, spectacular views of the delta, Makgadikgadi pans, Nxai Pan, Baines Baobab, Kubu Island, Big Five in Moremi game reserve.",
+        url: "/safari/okavango-moremi-makgadikgadi-safari-adventure"
+      },
+
+      {
+        label: "Tsodilo Hills & Okavango Panhandle Discovery Trail",
+        key: "4",
+        description: "Visit Tsodilo Hills – the 'mountains of the gods', Okavango River boat cruise – pan handle, local handicrafts/souvenir market, cultural dance around the fire (extra cost).",
+        url: "/safari/tsodilo-hills-okavango-panhandle-discovery-trail"
+      },
     ],
-  },
+  }
+
 };
 </script>
 

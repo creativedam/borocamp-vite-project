@@ -2,7 +2,7 @@
     <div class="about w-full">
         <Top />
         <Nav />
-        <SafariBanner title="OKAVANGO DELTA BY MOKORO + MOREMI TRIP" />
+        <SafariBanner title="Okavango Moremi Makgadikgadi Safari Adventure" />
         <SafariExpectations title="WHAT TO EXPECT" :items="[
             'Exhilarating canoe rides',
             'Spectacular views of the delta',
@@ -49,7 +49,7 @@ import SafariExpectations from '../../components/shared/SafariExpectations.vue';
 import SafariItinerary from '../../components/shared/SafariItinerary.vue';
 import Contact from '../../components/shared/Contact.vue';
 export default {
-    name: 'OkavangoDeltaMokoroMoremi',
+    name: 'OkavangoDeltaMokoroMoremiScenicSafari',
     components: {
         Top,
         Nav,

@@ -9,8 +9,15 @@ import Safari from "../views/Safari.vue";
 import MobileSafari from "../views/MobileSafari.vue";
 import Camping from "../views/Camping.vue";
 import NotFound from "../views/NotFound.vue";
-import OkavangoDeltaMokoroMoremi from "../views/Safaris/Okavango-delta-mokoro-moremi.vue";
 
+// Safaris
+import OkavangoDeltaMokoroMoremiScenicSafari from "../views/Safaris/OkavangoDeltaMokoroMoremiScenicSafari.vue";
+import MoremiKhwaiSafariExperience from "../views/Safaris/MoremiKhwaiSafariExperience.vue";
+import TsodiloHillsOkavangoPanhandleDiscoveryTrail from "../views/Safaris/TsodiloHillsOkavangoPanhandleDiscoveryTrail.vue";
+
+import MoremiKhwaiSavuteExpedition from "../views/Safaris/MoremiKhwaiSavuteExpedition.vue";
+import OkavangoMoremiMakgadikgadiSafariAdventure from "../views/Safaris/OkavangoMoremiMakgadikgadiSafariAdventure.vue";
+import OkavangoMoremiKhwaiSavuteChobeVictoriaFallsGrandSafari from "../views/Safaris/OkavangoMoremiKhwaiSavuteChobeVictoriaFallsGrandSafari.vue";
 const routes = [
   // Main Routes
   { path: "/", name: "Home", component: Home },
@@ -20,9 +27,39 @@ const routes = [
   { path: "/activities", name: "Activities", component: Activities },
   { path: "/safaris", name: "Safari", component: Safari },
   {
-    path: "/safaris/okavango-delta-mokoro-moremi-scenic-safari",
-    name: "OkavangoDeltaMokoroMoremi",
-    component: OkavangoDeltaMokoroMoremi,
+    path: "/safari/moremi-khwai-safari-experience",
+    name: "MoremiKhwaiSafariExperience",
+    component: MoremiKhwaiSafariExperience,
+  },
+
+  {
+    path: "/safari/moremi-khwai-savute-expedition",
+    name: "MoremiKhwaiSavuteExpedition",
+    component: MoremiKhwaiSavuteExpedition,
+  },
+
+  {
+    path: "/safari/okavango-delta-mokoro-moremi-scenic-safari",
+    name: "OkavangoDeltaMokoroMoremiScenicSafari",
+    component: OkavangoDeltaMokoroMoremiScenicSafari,
+  },
+
+  {
+    path: "/safari/okavango-moremi-khwai-savute-chobe-victoria-falls-grand-safari",
+    name: "OkavangoMoremiKhwaiSavuteChobeVictoriaFallsGrandSafari",
+    component: OkavangoMoremiKhwaiSavuteChobeVictoriaFallsGrandSafari,
+  },
+
+  {
+    path: "/safari/okavango-moremi-makgadikgadi-safari-adventure",
+    name: "OkavangoMoremiMakgadikgadiSafariAdventure",
+    component: OkavangoMoremiMakgadikgadiSafariAdventure,
+  },
+
+  {
+    path: "/safari/tsodilo-hills-okavango-panhandle-discovery-trail",
+    name: "TsodiloHillsOkavangoPanhandleDiscoveryTrail",
+    component: TsodiloHillsOkavangoPanhandleDiscoveryTrail,
   },
 
   { path: "/activities/mobile", name: "Mobile", component: MobileSafari },
